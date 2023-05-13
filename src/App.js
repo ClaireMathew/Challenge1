@@ -27,7 +27,7 @@ fetchItems();
   return (
     <div className="App">
       <Form reqType={reqType} setReqType={setReqType} />
-      <List items={items} />
+      {/* <List items={items} /> */}
       <Table items={items} />
     </div>
   );
