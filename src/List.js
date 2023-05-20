@@ -1,6 +1,6 @@
-import ListItem from "./ListItem"
+import ListItem from "./ListItem";
 
-const List = ( {items} ) => {
+const List = ({ items }) => {
   return (
     <ul>
         {items.map(item => (
